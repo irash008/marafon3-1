@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #EFE6E4;
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    width: 1400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    background-image: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png);
+    width: 1400px;
+    height: 715px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 99.33px;
+    margin-top: 36px;
+    margin-right: 10px;
+}
+
+.header__menu__logo_item {
+    display: flex;
+    align-items: center;
+}
+
+.mini_logo {
+    width: 25.34px;
+    height: 25px;
+    background-image: url(img/logo_mini.svg);
+}
+
+.brand_name {}
+
+.header__menu__nevigation {
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.main a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+
+.main__article {
+    margin-left: 185px;
+    margin-top: 94px;
+}
+
+.main__article>h1 {
+    width: 534.02px;
+    height: 186px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.main__article__text {
+    width: 493.57px;
+    height: 90px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    margin-top: 24px;
+}
+
+.main__article__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    height: 74px;
+    width: 309px;
+    background: #CC8B86;
+}
+
+.about {
+    margin-top: 233px;
+}
+
+.about>h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 125% */
+    text-transform: uppercase;
+    color: #533738;
+}
+
+.about__content {
+    display: inline-flex;
+}
+
+.about__img {
+    background-image: url(img/shche_-team-PFi1uWHh2dQ-unsplash\ 1.png);
+    width: 444.54px;
+    height: 465px;
+    margin-left: 182px;
+    margin-top: 40px;
+}
+
+.about__text {
+    width: 528px;
+    height: 330px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    margin-left: 62px;
+    margin-top: 40px;
+}
+
+.about__footer {
+    width: 1400px;
+    height: 273px;
+    background: #8D7370;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 21px;
+}
+
+.about__footer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.about__footer__item__number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.about__footer__item__number__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.portfolio {
+    width: 1200px;
+    height: 1099px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.portfolio>h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    margin-top: 65px;
+}
+
+.portfolio__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio__content__item:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 488px;
+    height: 451px;
+    background-image: url(img/Rectangle\ 134.png);
+}
+
+.portfolio__content__item1__header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 270px;
+    height: 111px;
+}
+
+.portfolio__content__item1__text {
+    width: 418px;
+    height: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.portfolio__content__item:nth-child() {}
+
+.portfolio__content__item:nth-child() {}
+
+.portfolio__content__item:nth-child() {}

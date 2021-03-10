@@ -204,6 +204,18 @@ body {
     text-transform: uppercase;
     color: #533738;
     margin-top: 65px;
+    margin-bottom: 10px;
+}
+
+.portfolio>h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #533738;
+    margin-top: 40px;
 }
 
 .portfolio__content {
@@ -212,41 +224,259 @@ body {
     justify-content: space-between;
 }
 
+.portfolio__content__item {
+    margin-top: 30px;
+}
+
 .portfolio__content__item:nth-child(1) {
+    width: 488px;
+    height: 451px;
+    position: relative;
+    background: url(img/image\ 55.png) rgba(100, 72, 69, 0.8);
+}
+
+.portfolio__content__item:nth-child(2) {
+    width: 692px;
+    height: 451px;
+    background: url(img/Rectangle\ 134.png);
+}
+
+.portfolio__content__item:nth-child(3) {
+    background: url(img/Rectangle\ 132.png);
+    width: 692px;
+    height: 451px;
+}
+
+.portfolio__content__item:nth-child(4) {
+    width: 488px;
+    height: 451px;
+    background: url(img/image\ 56.png);
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    width: 1399px;
+    height: 998px;
+    background: #E2C4BA;
+    margin-top: 65px;
+}
+
+.team>h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 44px;
+    color: #533738;
+}
+
+.team__mates {
+    display: flex;
+    margin-left: 181px;
+    margin-right: 182px;
+    justify-content: space-between;
+}
+
+.team__mates__item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 488px;
-    height: 451px;
-    background-image: url(img/Rectangle\ 134.png);
 }
 
-.portfolio__content__item1__header {
+.team__mates__item__about {
+    margin-top: 10px;
+}
+
+.team__mates__item:nth-child(1)>.team__mates__item__photo {
+    background: url(img/image\ 61.png);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 253px;
+}
+
+.team__mates__item:nth-child(1)>.team__mates__item__about {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 37px;
-    text-align: center;
-    color: #FFFFFF;
-    width: 270px;
-    height: 111px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 320px;
+    height: 180px;
+    color: #533738;
 }
 
-.portfolio__content__item1__text {
-    width: 418px;
+.team__mates__item:nth-child(2)>.team__mates__item__photo {
+    background: url(img/image\ 59.png);
+    width: 320px;
+    height: 253px;
+}
+
+.team__mates__item:nth-child(2)>.team__mates__item__about {
+    width: 320px;
     height: 150px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+    color: #533738;
+}
+
+.team__mates__item:nth-child(3)>.team__mates__item__photo {
+    background: url(img/image\ 58.png);
+    width: 320px;
+    height: 253px;
+}
+
+.team__mates__item:nth-child(3)>.team__mates__item__about {
+    width: 320px;
+    height: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.team__how_we_work {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 99px;
+}
+
+.team__how_we_work__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__how_we_work__item__round {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #8D7370;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__how_we_work__text {
+    width: 285px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #533738;
+    margin-top: 20px;
+}
+
+.revews {
+    width: 1036px;
+    height: 658px;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.revews>h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    text-align: center;
+}
+
+.revews__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.revews__content__arrow {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    background: url(img/Arrow\ 2.svg) #CC8B86;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scaed_x {
+    transform: scale(-1, 1);
+}
+
+.revews__content__revew_text {
+    width: 407px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.revews__content__images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.revews__content__images>img {
+    width: 407px;
+    padding-bottom: 17px;
+}
+
+.request {
+    height: 624px;
+    background: #8D7370;
+}
+
+.request__content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 182px;
+    margin-right: 101px;
+}
+
+.form>h2 {
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 125% */
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
-.portfolio__content__item:nth-child() {}
-
-.portfolio__content__item:nth-child() {}
-
-.portfolio__content__item:nth-child() {}
+.form__text {
+    text-align: justify;
+    margin-top: 24px;
+    width: 507px;
+    height: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}

@@ -26,7 +26,7 @@ body {
 
 .app {
     width: 1400px;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,6 +35,10 @@ body {
 .main {
     background-image: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png);
     width: 1400px;
+    background-repeat: no-repeat;
+}
+
+.main__screen1 {
     height: 715px;
 }
 
@@ -470,7 +474,9 @@ body {
 .form__text {
     text-align: justify;
     margin-top: 24px;
-    width: 507px;
+    margin-right: 20px;
+    margin-bottom: 44px;
+    width: 450px;
     height: 60px;
     font-family: Montserrat;
     font-style: normal;
@@ -479,4 +485,65 @@ body {
     line-height: 30px;
     color: #FFFFFF;
     opacity: 0.6;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form__input {
+    width: 508px;
+    height: 34px;
+    margin-bottom: 58px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: #8D7370;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F6EDE9;
+}
+
+.form_button {
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+}
+
+.map {
+    width: 590px;
+    height: 624px;
+    background: url(img/image\ 54.png);
+}
+
+.footer {
+    width: 1400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left {
+    align-items: center;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.footer_text1 {
+    margin-right: 42px;
+}
+
+.footer_text3 {
+    margin-right: 100px;
 }
